@@ -1,0 +1,73 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 24px;
+  font-weight: 400;
+  color: rgb(49, 49, 49);
+  font-family: sans-serif;
+  line-height: 1.8rem;
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.pimg1 {
+  background-image: url(https://www.freecodecamp.org/news/content/images/2021/06/w-qjCHPZbeXCQ-unsplash.jpg);
+  min-height: 100%;
+}
+
+.pimg2 {
+  background-image: url(https://img.freepik.com/free-photo/top-view-background-beautiful-white-grey-brown-cream-blue-background_140725-72219.jpg?w=2000);
+  min-height: 400px;
+}
+
+.pimg3 {
+  background-image: url(https://images.unsplash.com/photo-1483232539664-d89822fb5d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGljc2FydCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80);
+  min-height: 400px;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+.section-light {
+  background-color: whitesmoke;
+  color: #666;
+}
+
+.section-dark {
+  background-color: black;
+  color: #fff;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.border {
+  background-color: darkgray;
+  padding: 20px;
+  color: blue;
+}
+
+.trans {
+  background-color: transparent;
+  color: black;
+  border: 2px solid black;
+}
